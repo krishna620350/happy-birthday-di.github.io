@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url("image/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    animation: birth 10s infinite linear;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+@keyframes birth{
+    20%{
+        background-image: url("image/bg1.jpg");
+    }
+    40%{
+        background-image: url("image/bg2.jpg");
+    }
+    60%{
+        background-image: url("image/bg3.jpg");
+    }
+    80%{
+        background-image: url("image/bg4.jpg");
+    }
+    100%{
+        background-image: url("image/bg5.jpg");
+    }
+}
+.container .contant{
+    background-color: rgba(193, 143, 250, 0.623);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(248, 140, 239, 0.582);
+}
+.container .contant h1{
+    border-bottom: 2px dashed yellow;
+    text-align: center;
+    color: rgb(110, 2, 110);
+}
+.container .contant h2{
+    padding:5px;
+    font-size:2rem;
+    color: rgb(83, 2, 158);
+    border-bottom: 2px solid rgb(194, 2, 2);
+}
+.flower img{
+    width: 50px;
+    animation: flower2 5s linear infinite;/*adding animation*/
+}
+@keyframes flower2{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 2;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 3;
+    }
+}
+.flower{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0px;
+}
+.img:nth-child(1){
+    animation-delay: 1.6s;
+    width: 40px;
+}
+.flower img:nth-child(2){
+    animation-delay: 1s;
+    width: 45px;
+}
+.flower img:nth-child(3){
+    animation-delay: 2s;
+    width: 20px;
+}
+.flower img:nth-child(4){
+    animation-delay: 3s;
+    width: 30px;
+}
+.flower img:nth-child(5){
+    animation-delay: 2.5s;
+    width: 60px;
+}
+.flower img:nth-child(6){
+    animation-delay: 1.5s;
+    width: 25px;
+}
+.flower img:nth-child(7){
+    animation-delay: 1s;
+    width: 30px;
+}
+.flower img:nth-child(8){
+    animation-delay: 3.5s;
+    width: 20px;
+}
+.flower img:nth-child(9){
+    animation-delay: 2.3s;
+    width: 19px;
+}
+.flower img:nth-child(10){
+    animation-delay: 1.8s;
+    width: 30px;
+}
