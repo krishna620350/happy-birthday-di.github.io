@@ -32,10 +32,10 @@
     }
 }
 .container .contant{
-    background-color: rgba(193, 143, 250, 0.623);
+    background-color: rgba(193, 143, 250, 0.349);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 8px 8px 10px rgba(248, 140, 239, 0.582);
+    box-shadow: 8px 8px 10px rgba(248, 140, 239, 0.397);
 }
 .container .contant h1{
     border-bottom: 2px dashed yellow;
